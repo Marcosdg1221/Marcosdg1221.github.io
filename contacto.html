@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Marcos Domínguez</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+        }
+
+        header {
+            background: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .nav-button {
+            background: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: 0.3s ease;
+            border: 2px solid #00ffcc;
+        }
+
+        .nav-button:hover {
+            background: #00ffcc;
+            color: #121212;
+        }
+
+        .contacto-section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contacto-section h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #00ffcc;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .contacto-intro {
+            font-size: 18px;
+            color: #cccccc;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            line-height: 1.6;
+        }
+
+        .contacto-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .contact-card {
+            background: #1e1e1e;
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid #00ffcc;
+            text-align: center;
+            transition: 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px #00ffccaa;
+        }
+
+        .contact-card img {
+            width: 70px;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 0 8px #00ffcc88);
+        }
+
+        .contact-card p {
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        .contact-card a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-green-contact {
+            background: #00ffcc;
+            color: #121212;
+            padding: 12px 30px;
+            margin-top: 40px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            transition: 0.3s ease;
+            border: 2px solid #00ffcc;
+        }
+
+        .btn-green-contact:hover {
+            background: #008866;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1e1e;
+            margin-top: 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="nav-button">Inicio</a>
+            <a href="proyectos.html" class="nav-button">Mis proyectos</a>
+        </nav>
+    </header>
+
+    <section class="contacto-section">
+        <h1>Contacto</h1>
+		<div class="spacing"></div>
+        <p class="contacto-intro">
+            Si deseas ponerte en contacto conmigo para colaboraciones, proyectos de software, animación,
+            o cualquier consulta profesional, aquí tienes mis vías de contacto principales.
+            ¡Responderé lo antes posible!
+        </p>
+		
+		
+        <div class="green-line"></div>
+
+        <div class="spacing"></div>
+
+        <div class="contact-container">
+    <div class="contact-card">
+        <img src="https://www.pngkit.com/png/full/98-981549_resultado-de-imagen-para-icono-telefono-blanco-phone.png" alt="Teléfono">
+        <p><strong>Teléfono:</strong><br> +34 674 576 688</p>
+    </div>
+
+    <div class="contact-card">
+        <img src="https://cdn.pixabay.com/photo/2016/01/26/17/15/gmail-1162901_640.png" alt="Correo">
+        <p><strong>Correo:</strong><br> marcosdomgar2001@gmail.com</p>
+    </div>
+
+    <div class="contact-card">
+        <img src="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png" alt="LinkedIn">
+        <p><strong>LinkedIn:</strong><br>
+            <a href="https://www.linkedin.com/in/marcos-dom%C3%ADnguez-garrido-2a66aa312/" target="_blank">
+                Marcos Domínguez
+            </a>
+        </p>
+    </div>
+
+    <div class="contact-card">
+        <img src="https://cdn.pixabay.com/photo/2021/05/22/11/38/yt-6273367_1280.png" alt="Youtube">
+        <p><strong>YouTube:</strong><br>
+            <a href="https://www.youtube.com/channel/UCyS2q463CkNmnPqr1me-lrA" target="_blank">
+                Vileksbd
+            </a>
+        </p>
+    </div>
+</div>
+
+        </div>
+		</section>
+	
+	    <div class="spacing"></div>
+
+        <div class="green-line"></div>
+
+        <div class="spacing"></div>
+	
+        <a href="index.html" text-align: center class="btn-green-contact">Volver a la Página Principal</a>
+ 
+
+    <footer>
+        <h3>Marcos Domínguez Garrido</h3>
+    </footer>
+
+</body>
+</html>
