@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-.contact-container {
+.contact-container { 
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columnas */
     grid-template-rows: repeat(2, auto);  /* 2 filas */
